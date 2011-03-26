@@ -3,7 +3,7 @@
  *  
  * @author mh
  *
- * TODO: Write this in a good way.
+ * TODO: Learn Java and write this in a good way.
  */
 import java.util.Vector;
 
