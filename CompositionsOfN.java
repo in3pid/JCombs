@@ -25,7 +25,6 @@ public class CompositionsOfN {
 		if (i == -1) { empty = true; }
 		else {
 			int x = p.get(i);
-			// rsum is the sum of the numbers to the right of x
 			p.setSize(i + 1);
 			p.set(i, x - 1);
 			p.add(rsum + 1);
