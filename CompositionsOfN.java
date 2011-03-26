@@ -1,5 +1,5 @@
 /**
- * PartsOfN gives the partitions of a natural number n.
+ * The compositions of a natural number n.
  *  
  * @author mh
  *
@@ -7,11 +7,11 @@
  */
 import java.util.Vector;
 
-public class PartsOfN {
+public class CompositionsOfN {
 	private Integer n;
 	private Vector<Integer> p;
 	private boolean empty = false;
-	public PartsOfN(int n_) {
+	public CompositionsOfN(int n_) {
 		n = new Integer(n_);
 		p = new Vector<Integer>();
 		p.add(n);
