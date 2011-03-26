@@ -1,6 +1,6 @@
 /**
- * Words iterates through the k-permutations (with repetition) of a set
- *  with cardinality n.
+ * Words iterates through the k-permutations (with repetition) of an
+ *  n-subset of the natural numbers.
  * 
  * @author mh
  *
