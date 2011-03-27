@@ -1,0 +1,47 @@
+##########################################################
+#
+# GIT
+#
+# http://learn.github.com/p/normal.html
+#
+# Some useful git commands.
+# normal work flow etc.
+#
+##########################################################
+
+##################################################
+#       NORMAL WORK FLOW
+##################################################
+
+# add a file to change-list
+$ git -a file
+
+# commit a a file before pushing into repo
+$ git commit -m file
+
+
+#guess help
+$git help
+
+
+###########################
+#   FORKING
+#####################
+
+
+$ git clone git@github.com:username/Spoon-Knife.git
+
+
+$ git remote add upstream git://github.com/octocat/Spoon-Knife.gitAssigns the original repo to a remote called "upstream"
+$ git fetch upstream
+
+##### push commits ###########
+
+$ git push origin master
+
+#####  update project in local workspace ###########
+
+$ git fetch upstreamFetches any new changes from the original repo
+$ git merge upstream/master
+
+#####
