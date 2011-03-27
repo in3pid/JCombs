@@ -1,8 +1,8 @@
 package com.pentacontatrigon.combinatorics.composition;
 
-
 import java.util.ArrayList;
 import java.util.List;
+
 
 /**
  * The composition of a natural number n.
