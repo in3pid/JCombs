@@ -1,0 +1,124 @@
+
+
+##########################################################
+#
+# GIT
+#
+# http://learn.github.com/p/normal.html
+#
+# Some useful git commands.
+# normal work flow etc.
+#
+##########################################################
+
+#guess help
+$git help
+
+##################################################
+#       NORMAL WORK FLOW
+##################################################
+
+
+# add a file to change-list
+$ git -a file
+
+#check status of file. conflict? added? modified? etc
+$ git status
+
+# commit a a file before pushing into repo
+$ git commit -m file
+
+# compare workspace with repo
+$ git diff
+
+
+
+
+###########################
+#   FORKING
+#####################
+
+
+$ git clone git@github.com:username/Spoon-Knife.git
+
+
+$ git remote add upstream git://github.com/octocat/Spoon-Knife.gitAssigns the original repo to a remote called "upstream"
+$ git fetch upstream
+
+##### push commits ###########
+
+$ git push origin master
+
+#####  update project in local workspace ###########
+
+$ git fetch upstreamFetches any new changes from the original repo
+$ git merge upstream/master
+
+
+#########################################
+#
+#        For further reading
+#
+#        http://progit.org/book/ch2-1.html
+#
+###################################
+
+# To start tracking a repo?
+$ git init
+
+# inits and does stuff. like checkout in subversion.
+$ git clone git://github.com/schacon/grit.git
+
+# like history
+$git log
+
+# like revert
+$git reset file
+
+# clean checkout. downloads file from repo
+$git checkout file
+
+#fetch
+#TODO cy: example
+
+#pull
+#TODO cy: example
+
+#TODO: read http://progit.org/book/ch2-5.html
+#adding remotes...
+
+
+
+
+
+
+
+
+
+#############################
+# some useful git commands #
+############################
+
+#help
+
+$git help
+
+###########################
+# forking 
+#####################
+
+
+$ git clone git@github.com:username/Spoon-Knife.git
+
+
+$ git remote add upstream git://github.com/octocat/Spoon-Knife.gitAssigns the original repo to a remote called "upstream"
+$ git fetch upstream
+
+##### push commits ###########
+
+$ git push origin master
+
+#####  update project in local workspace ###########
+
+$ git fetch upstreamFetches any new changes from the original repo
+$ git merge upstream/master

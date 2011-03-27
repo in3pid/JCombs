@@ -1,7 +1,8 @@
 package com.pentacontatrigon.combinatorics.composition;
 
 
-import java.util.Vector;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * The composition of a natural number n.
@@ -12,11 +13,12 @@ import java.util.Vector;
  */
 public class CompositionsOfN {
 
+    //TODO cy: review and revise.
     //...
     private boolean empty = false;
 
     //...
-    private Vector<Integer> p = new Vector<Integer>();
+    private List<Integer> p = new ArrayList<Integer>();
 
     /**
      * @param n
@@ -35,8 +37,8 @@ public class CompositionsOfN {
     /**
      * @return
      */
-    public Vector<Integer> next() {
-        Vector<Integer> r = (Vector<Integer>) p.clone();
+    public List<Integer> next() {
+        List<Integer> r = (p);
         int i, rsum = 0;
         // find the rightmost element x of p such that 1 < x
         for (i = p.size() - 1; 0 <= i && p.get(i) <= 1; i--) {
@@ -45,7 +47,7 @@ public class CompositionsOfN {
         if (i == -1) {
             empty = true;
         } else {
-            p.setSize(i + 1);
+           // p.setSize(i + 1);  arrayList increments automagically
             p.set(i, p.get(i) - 1);
             p.add(rsum + 1);
         }

@@ -4,15 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ylabs.combinatorics</groupId>
-    <artifactId>Comninatorics-parent</artifactId>
+    <groupId>com.pentacontatrigon.combinatorics</groupId>
+    <artifactId>Combinatorics-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>Combinatorics Parent</name>
     <packaging>pom</packaging>
 
-    <!--
     <modules>
-        <module>module1/trunk</module>
-        <module>module2/trunk</module>
-    </modules>-->
+        <module>algorithms</module>
+        <module>api</module>
+        <module>common</module>
+        <module>dao</module>
+        <module>domain</module>
+        <module>development</module>
+        <module>documentation</module>
+        <module>service</module>
+    </modules>
 </project>
