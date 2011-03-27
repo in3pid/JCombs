@@ -48,7 +48,10 @@ public class CompositionsOfN {
         if (i == -1) {
             empty = true;
         } else {
-            // p.setSize(i + 1);  arrayList increments automagically
+	    // reduce x by 1 by shifting it to the tail;
+	    // replace the tail of x with the sum of
+	    // its elements; eg (2, 1, 1, 1) -> (1, 4)
+            p.setSize(i + 1);
             p.set(i, p.get(i) - 1);
             p.add(rsum + 1);
         }
