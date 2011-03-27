@@ -14,6 +14,7 @@ import java.util.List;
 public class CompositionsOfN {
 
     //TODO cy: review and revise.
+    //TODO cy: separaition of concerns
     //...
     private boolean empty = false;
 
@@ -47,7 +48,7 @@ public class CompositionsOfN {
         if (i == -1) {
             empty = true;
         } else {
-           // p.setSize(i + 1);  arrayList increments automagically
+            // p.setSize(i + 1);  arrayList increments automagically
             p.set(i, p.get(i) - 1);
             p.add(rsum + 1);
         }
