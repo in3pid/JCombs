@@ -4,6 +4,7 @@
 #   2011-03
 #############################################
 
-Some combinatorics in Java.
+Project TODOs:
 
-
+* We need test cases for all the algorithms.
+* Use BigInteger on all algorithms.
