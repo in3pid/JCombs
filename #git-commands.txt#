@@ -9,19 +9,24 @@
 #
 ##########################################################
 
+#guess help
+$git help
+
 ##################################################
 #       NORMAL WORK FLOW
 ##################################################
 
+
 # add a file to change-list
 $ git -a file
+
+#check status of file. conflict? added? modified? etc
+$ git status
 
 # commit a a file before pushing into repo
 $ git commit -m file
 
 
-#guess help
-$git help
 
 
 ###########################
