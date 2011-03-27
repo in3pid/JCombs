@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.pentacontatrigon.combinatorics.api</groupId>
-    <artifactId>Api</artifactId>
+    <artifactId>api</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>Api</name>
     <packaging>jar</packaging>

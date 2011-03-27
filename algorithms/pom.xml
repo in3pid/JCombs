@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.pentacontatrigon.combinatorics.algorithm</groupId>
-    <artifactId>Algorithms</artifactId>
+    <artifactId>algorithm</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>Algorithms</name>
+    <name>Algorithm</name>
     <packaging>jar</packaging>
 
     <parent>
